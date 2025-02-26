@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Adarsh Verma's portfolio showcasing skills, projects, and achievements.">
+  <title>Adarsh Verma | Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="index.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0" data-aos-enabled="true" class="has-fixed-nav is-banner-in" style="padding-top: 80.8px;">
+  <nav aria-label="Main" class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">Adarsh Verma</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <header class="jumbotron text-center">
+    <div class="container">
+      <h1 class="display-4">Passionate BCA Student</h1>
+      <p class="lead">Adarsh Verma is a dedicated BCA student based in Azamgarh, actively pursuing job opportunities to launch a successful career in the tech industry.</p>
+      <a href="index.html#services" class="btn btn-primary">View Services</a>
+    </div>
+  </header>
+
+  <section id="services" class="container my-5">
+    <h2 class="text-center">Skill Showcase</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://cdn.b12.io/client_media/F9tzSqEn/658ee6a4-f35f-11ef-af93-0242ac110002-jpg-hero_image.jpeg" class="card-img-top" alt="Web Development">
+          <div class="card-body">
+            <h5 class="card-title">Web Development</h5>
+            <p class="card-text">Responsive design, coding, user experience.</p>
+            <a href="/web-development" class="btn btn-secondary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://cdn.b12.io/client_media/F9tzSqEn/6556eb96-f35f-11ef-af93-0242ac110002-jpg-hero_image.jpeg" class="card-img-top" alt="Mobile Application Development">
+          <div class="card-body">
+            <h5 class="card-title">Mobile Application Development</h5>
+            <p class="card-text">User engagement, innovative design, mobile technology.</p>
+            <a href="/mobile-application-development" class="btn btn-secondary">Read more</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://cdn.b12.io/client_media/F9tzSqEn/65e3e564-f35f-11ef-af93-0242ac110002-jpg-hero_image.jpeg" class="card-img-top" alt="Data Analysis">
+          <div class="card-body">
+            <h5 class="card-title">Data Analysis</h5>
+            <p class="card-text">Actionable insights, data trends, analytics tools.</p>
+            <a href="/data-analysis" class="btn btn-secondary">Read more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="container my-5">
+    <h2 class="text-center">Showcasing Skills</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://cdn.b12.io/client_media/F9tzSqEn/6355f134-f35f-11ef-af93-0242ac110002-jpg-hero_image.jpeg" class="card-img-top" alt="Inventory Management System">
+          <div class="card-body">
+            <h5 class="card-title">Inventory Management System</h5>
+            <p class="card-text">Software Development, Java, MySQL.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://cdn.b12.io/client_media/F9tzSqEn/63b62d10-f35f-11ef-af93-0242ac110002-jpg-hero_image.jpeg" class="card-img-top" alt="Personal Portfolio Website">
+          <div class="card-body">
+            <h5 class="card-title">Personal Portfolio Website</h5>
+            <p class="card-text">Web Design, HTML, CSS, JavaScript.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://cdn.b12.io/client_media/F9tzSqEn/63794792-f35f-11ef-af93-0242ac110002-jpg-hero_image.jpeg" class="card-img-top" alt="Blog Management System">
+          <div class="card-body">
+            <h5 class="card-title">Blog Management System</h5>
+            <p class="card-text">PHP, MySQL, Web Development.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="container my-5">
+    <h2 class="text-center">Get in Touch</h2>
+    <p class="text-center">Connect for opportunities and collaborations</p>
+    <div class="row">
+      <div class="col-md-6">
+        <form action="https://b12.io/contact/send/" method="POST" class="form">
+          <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" class="form-control" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" class="form-control" required></textarea>
+          </div>
+          <div class="form-group form-check">
+            <input type="checkbox" class="form-check-input" id="consent" name="consent" required>
+            <label class="form-check-label" for="consent">I allow this website to store my submission so they can respond to my inquiry.</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+      <div class="col-md-6">
+        <h3>Contact Details</h3>
+        <p>Email: <a href="mailto:adarshverma7376@gmail.com">adarshverma7376@gmail.com</a></p>
+        <p>Location: <a href="https://www.google.com/maps/place/+Prayagaj+UP+IN" target="_blank">Prayagraj, UP, IN</a></p>
+        <h4>Working Hours</h4>
+        <ul class="list-unstyled">
+          <li>Monday - Friday: 9:00am - 10:00pm</li>
+          <li>Saturday: 9:00am - 6:00pm</li>
+          <li>Sunday: 9:00am - 12:00pm</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer bg-dark text-white py-3">
+    <div class="container text-center">
+      <p>&copy; 2025 Adarsh Verma. All Rights Reserved.</p>
+      <div class="social-links">
+        <a href="https://www.facebook.com/adarshverma0" class="text-white mx-2">Facebook</a>
+        <a href="https://www.twitter.com/@12av21" class="text-white mx-2">Twitter</a>
+        <a href="https://www.instagram.com/12av21" class="text-white mx-2">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('load', () => {
+      const { toastMessage } = window.b12?.nextSteps.parseUrlParams();
+      if (window.b12 && toastMessage) {
+        window.b12.toastNotification.show(toastMessage);
+      }
+    });
+
+    $(function() {
+      b12.deferredRun("lightbox.runModal", {
+        "className": ".quick-view-5f8b4bd3-fa76-4581-b86c-d2d530f83e61",
+        "classForTriggers": ".quick-view-5f8b4bd3-fa76-4581-b86c-d2d530f83e61-trigger",
+        "sectionClasses": ["option-section-background-image-fixed", "option-align-content-center", "option-align-center", "option-imagesize-lg", "option-align-grid-buttons-to-bottom", "option-link-decoration-border-bottom-static", "option-animate-image-fade", "option-imagecrop-rectangle-portrait", "option-columns-3col", "option-image-border-radius-lg", "option-grid-align-center"],
+        "uuid": "5f8b4bd3-fa76-4581-b86c-d2d530f83e61"
+      });
+      b12.deferredRun("lightbox.runModal", {
+        "className": ".quick-view-137abfce-78b3-4b91-a3ce-723e907ab6ac",
+        "classForTriggers": ".quick-view-137abfce-78b3-4b91-a3ce-723e907ab6ac-trigger",
+        "sectionClasses": ["option-columns-4col", "option-imagesize-lg", "option-section-background-image-fixed", "option-imagecrop-square", "option-align-content-left", "option-animate-image-fade", "option-link-decoration-border-bottom-static", "option-grid-align-default"],
+        "uuid": "137abfce-78b3-4b91-a3ce-723e907ab6ac"
+      });
+    });
+  </script>
+</body>
+</html>
